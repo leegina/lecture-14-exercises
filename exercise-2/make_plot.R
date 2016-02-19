@@ -1,6 +1,7 @@
 ### Exercise 2 ###
-
+#install.packages("shiny")
 # 1.  Build a shiny app that displays this chart
+library(shiny)
 # 2.  Create number inputs that let you choose the number of points
 # 3.  Bonus: Create a dropdown menu to let the user pick the color:
 
@@ -9,3 +10,4 @@
 x <- rnorm(100)
 y <- rnorm(100)
 plot(x,y, col='blue')
+
